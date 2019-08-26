@@ -1,0 +1,21 @@
+#!/bin/bash
+# This script unpacks all currently developed and used libraries in VEXS,
+# as they are all compressed by default and there are quite a few to
+# unpack. If you wish to generate binary files for these libraries, please
+# run the script in generate_binary_files/
+
+set -x
+
+cd DATA
+libraries=$(find . ! -path . -type d)
+for library in $libraries;
+do
+	cd $library
+	rm metadata.txt
+	rm mat*.txt
+	rm ng*.txt
+	rm data.bin
+	tar -xf ${library}.tar.xz
+	cd ../
+done
+

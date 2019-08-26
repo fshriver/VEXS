@@ -1,0 +1,14 @@
+#!/bin/bash
+# This script automatically creates binary files for each library currently
+# present and used in VEXS. Just run me and everything should work correctly!
+
+make clean
+make -j16
+
+libraries=$(find ../DATA/ ! -path ../DATA/ -type d)
+for library in ${libraries};
+do
+	library=$(echo ${library} | sed 's/..\/DATA\///g')
+	./VEXS -i $library -w
+done
+

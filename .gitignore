@@ -1,0 +1,77 @@
+#VEXS executable
+VEXS
+
+# Cetus output
+**/cetus_output
+
+# AOC output directory
+**/openarc_kernel
+
+# AOC output files
+*.aoco
+*.aocx
+*.aocx.tmp
+
+# Format for VEXS output on HPC clusters
+vexs.o*
+
+#No data libraries allowed
+*.txt
+
+# No vscode or other data allowed
+*.json
+
+# No Apple-specific files allowed
+*.DS_Store
+
+#Profiling and job output
+*.map
+*.OU
+*.slurm
+*.pbs
+*.nvprof
+*.prof
+*.log
+
+#No binary files allowed
+*.dat
+*.bin
+
+# No ptx code allowed
+*.ptx
+
+#No scripts allowed
+*.sh
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
