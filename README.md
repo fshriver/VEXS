@@ -55,14 +55,14 @@ The VEXS codebase is essentially divided into two parts: the parser backend, loc
 # Program Options
 ```
 --help,-h : Outputs this help message.
---input,-i : Directory under the DATA folder where VEXS will look for library data. Default path: DATA/test
+--input,-i : Directory under the DATA folder where VEXS will look for library data. Default path: test
 --write-binary,-w : Write library data to binary file for faster reading in the future.
 --binary-b : Load library data from a binary file as opposed to reading from a text file.
---lookups,-l : Total number of macroscopic cross-section lookups to perform.
---hashbins,-h : Number of hash-bins to use in the hash-accelerated search.
---openmpthreads : Number of OpenMP threads to use. Only applicable for OpenMP-specific kernels.
---gpublocks : Number of blocks to use for GPU-specific kernels.
---gputhreads: Number of threads per block to use for GPU-specific kernels.
+--lookups,-l : Total number of macroscopic cross-section lookups to perform. Default value: 1
+--hashbins,-h : Number of hash-bins to use in the hash-accelerated search. Default value: 1
+--openmpthreads : Number of OpenMP threads to use. Only applicable for OpenMP-specific kernels. Default value: 1
+--gpublocks : Number of blocks to use for GPU-specific kernels. Default value: 1
+--gputhreads: Number of threads per block to use for GPU-specific kernels. Default value: 1
 ```
 
 # Why not just merge with XSBench?
