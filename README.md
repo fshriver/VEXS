@@ -48,9 +48,9 @@ The VEXS codebase is essentially divided into two parts: the parser backend, loc
 
 # Kernel guide
 
-```packages/GPU/CUDA/xsbench-like/naive/struct-of-arrays: ``` Struct-of-Arrays version of the basic binary search kernel.
-```packages/GPU/CUDA/xsbench-like/hash/struct-of-arrays/binary-completion: ``` Struct-of-Arrays version of the hash-accelerated search, with a binary search used to complete the reduced search window.
-```packages/GPU/CUDA/xsbench-like/hash/struct-of-arrays/linear-completion: ``` Struct-of-Arrays version of the hash-accelerated search, with a linear search used to complete the reduced search window.
+```packages/GPU/CUDA/xsbench-like/naive/struct-of-arrays: ``` Struct-of-Arrays version of the basic binary search kernel.  
+```packages/GPU/CUDA/xsbench-like/hash/struct-of-arrays/binary-completion: ``` Struct-of-Arrays version of the hash-accelerated search, with a binary search used to complete the reduced search window.  
+```packages/GPU/CUDA/xsbench-like/hash/struct-of-arrays/linear-completion: ``` Struct-of-Arrays version of the hash-accelerated search, with a linear search used to complete the reduced search window.  
 
 # Program Options
 ```
