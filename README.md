@@ -11,7 +11,7 @@
 ================================================================================
 ```
 
-A collaboration between the Future Technologies Group at Oak Ridge National Laboratory (https://csmd.ornl.gov/group/future-technologies) and the FAMMoS Group at the University of Florida (http://watson.mse.ufl.edu).
+A collaboration between the Florida Advanced Multiphysics Modeling and Siulation (FAMMoS) Group at the University of Florida (http://watson.mse.ufl.edu) and the Future Technologies (FT) Group at Oak Ridge National Laboratory (https://csmd.ornl.gov/group/future-technologies).
 
 Primary developers:  
 Forrest Shriver (joel397@ufl.edu)  
