@@ -20,14 +20,14 @@ void parse_cli(problem_data &problem, int argc, char* argv[])
 		{
 			cout << "Program usage:" << endl;
 			cout << "--help,-h : Outputs this help message." << endl;
-			cout << "--input,-i : Directory under the DATA folder where VEXS will look for library data. Default path: DATA/test" << endl;
+			cout << "--input,-i : Directory under the DATA folder where VEXS will look for library data. Default path: test" << endl;
 			cout << "--write-binary,-w : Write library data to binary file for faster reading in the future." << endl;
 			cout << "--binary-b : Load library data from a binary file as opposed to reading from a text file." << endl;
-			cout << "--lookups,-l : Total number of macroscopic cross-section lookups to perform." << endl;
-			cout << "--hashbins,-h : Number of hash-bins to use in the hash-accelerated search." << endl;
-			cout << "--openmpthreads : Number of OpenMP threads to use. Only applicable for OpenMP-specific kernels." << endl;
-			cout << "--gpublocks : Number of blocks to use for GPU-specific kernels." << endl;
-			cout << "--gputhreads: Number of threads per block to use for GPU-specific kernels." << endl;
+			cout << "--lookups,-l : Total number of macroscopic cross-section lookups to perform. Default value: 1" << endl;
+			cout << "--hashbins,-h : Number of hash-bins to use in the hash-accelerated search. Default value: 1" << endl;
+			cout << "--openmpthreads : Number of OpenMP threads to use. Only applicable for OpenMP-specific kernels. Default value: 1" << endl;
+			cout << "--gpublocks : Number of blocks to use for GPU-specific kernels. Default value: 1" << endl;
+			cout << "--gputhreads: Number of threads per block to use for GPU-specific kernels. Default value: 1" << endl;
 			exit(0);
 		}
 

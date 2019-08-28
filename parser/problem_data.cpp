@@ -22,7 +22,7 @@ problem_data::problem_data(){
 	upper_energy = 20e6;
 	binary = FALSE;
 	write_binary = FALSE;
-	num_lookups = 15000000;
+	num_lookups = 1;
 	hash_bins = 16384;
 	mpi_processes = 1;
 	openmp_threads = 1;
